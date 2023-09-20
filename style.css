@@ -1,0 +1,40 @@
+body {
+    font-size: 10px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Kanit', sans-serif;
+}
+
+.title {
+    background-color: rgb(75, 122, 28);
+    text-align: center;
+    margin: 20px;
+    margin-left: 300px;
+    margin-right: 300px;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.game {
+    width: 27vw;
+    height: 55vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgba(136, 100, 54, 0.788);
+}
+
+.game-img {
+    font-size: 2.2rem;
+    text-transform: uppercase;
+    width: 300px;
+    height: 400px;
+}
+
+.game-desc {
+    font-size: 1.3rem;
+}
