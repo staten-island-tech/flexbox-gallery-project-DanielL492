@@ -50,6 +50,8 @@ body {
 
 .game-img {
   text-transform: uppercase;
-  width: 270px;
-  height: 370px;
+  width: 17vw;
+  height: 45vh;
+/*   width: 270px;
+  height: 370px; */
 }
