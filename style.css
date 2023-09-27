@@ -46,18 +46,27 @@ body {
   margin-left: 0.25vw;
   margin-right: 0.25vw;
   box-shadow: 10px 10px;
-  transition: all .3sec;
+  transition: all .3s;
 }
 
-.game:hover .game_img{
-  filter:grayscale(0%)
+.game:hover .game-img{
+  filter:grayscale(0);
+  transform: scale(1.15) translate(0px, 10px);
+}
+
+.game:hover {
+  text-transform: uppercase;
+  transform: translate(0px, -25px) skewX(20);
+  text-size-adjust: 30px;
+  background-color: rgb(93, 126, 194);
 }
 
 .game-img {
   text-transform: uppercase;
   width: 17vw;
   height: 45vh;
-  filter: grayscale(20%);
+  filter: grayscale(65%);
+  transition: all 0.3s;
   /*   width: 270px;
   height: 370px; */
 }
