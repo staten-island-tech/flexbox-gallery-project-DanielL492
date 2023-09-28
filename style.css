@@ -46,7 +46,16 @@ body {
   margin-left: 0.25vw;
   margin-right: 0.25vw;
   box-shadow: 10px 10px;
-  transition: all .3s;
+  transition: all .3s; 
+}
+
+@media screen and (max-width: 800px) {
+  .game {
+    width: 100%;
+  }
+  .title {
+    font-size: 1.6rem;
+  }
 }
 
 .game:hover .game-img{
@@ -56,17 +65,16 @@ body {
 
 .game:hover {
   text-transform: uppercase;
-  transform: translate(0px, -25px) skewX(20);
+  transform: translate(0px, -25px) skew(10deg, 10deg);
   text-size-adjust: 30px;
   background-color: rgb(93, 126, 194);
 }
-
+ 
 .game-img {
-  text-transform: uppercase;
-  width: 17vw;
-  height: 45vh;
+  /*width: 17vw;
+  height: 45vh;*/
   filter: grayscale(65%);
   transition: all 0.3s;
-  /*   width: 270px;
-  height: 370px; */
+  width: 290px;
+  height: 390px; 
 }
