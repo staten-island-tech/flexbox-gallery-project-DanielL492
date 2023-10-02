@@ -46,7 +46,7 @@ body {
   margin-left: 0.25vw;
   margin-right: 0.25vw;
   box-shadow: 10px 10px;
-  transition: all .3s; 
+  transition: all 0.3s;
 }
 
 @media screen and (max-width: 800px) {
@@ -79,8 +79,8 @@ body {
   }
 }
 
-.game:hover .game-img{
-  filter:grayscale(0);
+.game:hover .game-img {
+  filter: grayscale(0);
   transform: scale(1.15) translate(0px, 10px);
 }
 
@@ -109,7 +109,7 @@ body {
   }
   16.6% {
     top: 13%;
-    left:20%;
+    left: 20%;
     opacity: 40%;
     transform: scale(1.4);
     background-color: rgb(53, 232, 232);
@@ -119,14 +119,14 @@ body {
     left: 80%;
     opacity: 60%;
     background-color: rgb(53, 232, 232);
-    transform: scale(1)
+    transform: scale(1);
   }
   49.8% {
     top: 8%;
     left: 80%;
     opacity: 70%;
     background-color: rgb(173, 47, 47);
-    transform: scale(1)
+    transform: scale(1);
   }
   66.4% {
     top: 3%;
@@ -140,22 +140,22 @@ body {
     left: 20%;
     opacity: 60%;
     background-color: rgb(53, 232, 232);
-    transform: scale(1)
+    transform: scale(1);
   }
   100% {
     top: 8%;
     left: 20%;
     opacity: 70%;
     background-color: rgb(173, 47, 47);
-    transform: scale(1)
+    transform: scale(1);
   }
 }
- 
+
 .game-img {
   /*width: 17vw;
   height: 45vh;*/
   filter: grayscale(65%);
   transition: all 0.3s;
   width: 75%;
-  height: 90%; 
+  height: 90%;
 }
