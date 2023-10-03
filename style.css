@@ -84,12 +84,62 @@ body {
   transform: scale(1.15) translate(0px, 10px);
 }
 
-.game:hover {
+#game1:hover {
   text-transform: uppercase;
-  transform: translate(0px, -25px) skew(10deg, 10deg);
-  text-size-adjust: 30px;
   background-color: rgb(93, 170, 194);
 }
+
+#game2:hover {
+  text-transform: uppercase;
+  background-color: rgb(93, 170, 194);
+}
+
+#game3:hover {
+  text-transform: uppercase;
+  background-color: rgb(93, 170, 194);
+}
+
+#game4:hover {
+  text-transform: uppercase;
+  background-color: rgb(93, 170, 194);
+}
+
+#game5:hover {
+  transform: translate(0px, -25px)
+}
+
+#game6:hover {
+  transform: translate(0px, -25px)
+}
+
+#game7:hover {
+  transform: translate(0px, -25px)
+}
+
+#game8:hover {
+  transform: translate(0px, -25px)
+}
+
+#game9:hover {
+  transform: skew(10deg, 10deg);
+  text-size-adjust: 30px;
+}
+
+#game10:hover {
+  transform: skew(10deg, 10deg);
+  text-size-adjust: 30px;
+}
+
+#game11:hover {
+  transform: skew(10deg, 10deg);
+  text-size-adjust: 30px;
+}
+
+#game12:hover {
+  transform: skew(10deg, 10deg);
+  text-size-adjust: 30px;
+}
+
 
 .animation {
   height: 1.5rem;
