@@ -105,19 +105,19 @@ body {
 }
 
 #game5:hover {
-  transform: translate(0px, -25px)
+  transform: translate(0px, -25px);
 }
 
 #game6:hover {
-  transform: translate(0px, -25px)
+  transform: translate(0px, -25px);
 }
 
 #game7:hover {
-  transform: translate(0px, -25px)
+  transform: translate(0px, -25px);
 }
 
 #game8:hover {
-  transform: translate(0px, -25px)
+  transform: translate(0px, -25px);
 }
 
 #game9:hover {
@@ -139,7 +139,6 @@ body {
   transform: skew(10deg, 10deg);
   text-size-adjust: 30px;
 }
-
 
 .animation {
   height: 1.5rem;
